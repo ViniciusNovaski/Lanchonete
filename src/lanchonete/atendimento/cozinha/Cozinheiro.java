@@ -5,11 +5,11 @@ import lanchonete.atendimento.cozinha.atendente.Atendente;
 public class Cozinheiro {
     //pode ser default
     public void adicionarLancheNoBalcao() {
-        System.out.println("ADICIONANDO LANCHE NATURAL HAMBÚRGUER NO BALCÃO");
+        System.out.println("Adicionar lanche natural no hamburguer pelo balcão");
     }
     //pode ser default
     public void adicionarSucoNoBalcao() {
-        System.out.println("ADICIONANDO SUCO NO BALCÃO");
+        System.out.println("Adicionar suco no balcao");
     }
     //pode ser default
     public void adicionarComboNoBalcao() {
@@ -17,10 +17,10 @@ public class Cozinheiro {
         adicionarSucoNoBalcao();
     }
     public void prepararLanche() {
-        System.out.println("PREPARANDO LANCHE TIPO HAMBÚRGUER");
+        System.out.println("Prepara o hamburguer");
     }
     public void prepararVitamina() {
-        System.out.println("PREPARANDO SUCO");
+        System.out.println("Prepara o suco !");
     }
     public void prepararCombo() {
         prepararLanche();
@@ -30,16 +30,16 @@ public class Cozinheiro {
         System.out.println("SELECIONADO O PÃO, SALADA, OVO E CARNE");
     }
     public void selecionarIngredientesVitamina() {
-        System.out.println("SELECIONADO FRUTA, LEITE E SUCO");
+        System.out.println("Selecionar pão, salada, ovo e carne .");
     }
     public void lavarIngredientes() {
-        System.out.println("LAVANDO INGREDIENTES");
+        System.out.println("Lavar ingredientes");
     }
     public void baterVitaminaLiquidificador() {
-        System.out.println("BATENDO VITAMINA NO LIQUIDIFICADOR");
+        System.out.println("Bater vitamina no liquidificador");
     }
     public void fritarIngredientesLanche() {
-        System.out.println("FRITANDO A CARNE E OVO PARA O HAMBÚRGUER");
+        System.out.println("FRritando carne, ovo para o hamburguer");
     }
     void pedirParaTrocarGas(Atendente meuAmigo) {
         meuAmigo.trocarGas();
